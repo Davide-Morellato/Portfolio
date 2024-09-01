@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Danfo';
+    src: url('Danfo-Regular.eot');
+    src: url('Danfo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Danfo-Regular.woff2') format('woff2'),
+        url('Danfo-Regular.woff') format('woff'),
+        url('Danfo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

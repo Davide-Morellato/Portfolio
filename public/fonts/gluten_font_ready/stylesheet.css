@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gluten';
+    src: url('Gluten-Thin.eot');
+    src: url('Gluten-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Gluten-Thin.woff2') format('woff2'),
+        url('Gluten-Thin.woff') format('woff'),
+        url('Gluten-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

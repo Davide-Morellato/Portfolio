@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Workforce Combine PERSONAL USE';
+    src: url('WorkforceCombinePERSONALUSE-Regular.eot');
+    src: url('WorkforceCombinePERSONALUSE-Regular.eot?#iefix') format('embedded-opentype'),
+        url('WorkforceCombinePERSONALUSE-Regular.woff2') format('woff2'),
+        url('WorkforceCombinePERSONALUSE-Regular.woff') format('woff'),
+        url('WorkforceCombinePERSONALUSE-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

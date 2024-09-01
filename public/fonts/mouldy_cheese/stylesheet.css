@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Mouldy Cheese';
+    src: url('MouldyCheese-Regular.woff2') format('woff2'),
+        url('MouldyCheese-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

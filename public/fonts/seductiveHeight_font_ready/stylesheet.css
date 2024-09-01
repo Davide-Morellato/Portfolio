@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Seductive Height (Bold)';
+    src: url('SeductiveHeightBold-Bold.woff2') format('woff2'),
+        url('SeductiveHeightBold-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

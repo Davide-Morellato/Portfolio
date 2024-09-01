@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Intentness';
+    src: url('Intentness.eot');
+    src: url('Intentness.eot?#iefix') format('embedded-opentype'),
+        url('Intentness.woff2') format('woff2'),
+        url('Intentness.woff') format('woff'),
+        url('Intentness.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
