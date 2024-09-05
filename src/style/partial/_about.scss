@@ -1,0 +1,290 @@
+/* ABOUT */
+.about {
+  max-width: 800px;
+  font-family: "TiltPrism-Regular", sans-serif;
+  color: var(--color-white);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* DOWNLOAD CV */
+.download {
+  color: var(--color-white);
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+  font-family: "Gluten-Thin", sans-serif;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.download:after {
+  content: "↯";
+  position: absolute;
+  opacity: 0;
+  right: -5px;
+  color: var(--color-black);
+  transition: 0.3s;
+}
+
+.download:hover:after {
+  opacity: 1;
+  right: 5px;
+}
+
+.download:hover {
+  background-image: linear-gradient(
+    to right,
+    #e7484f,
+    #e7484f 16.65%,
+    #f68b1d 16.65%,
+    #f68b1d 33.3%,
+    #fced00 33.3%,
+    #fced00 49.95%,
+    #009e4f 49.95%,
+    #009e4f 66.6%,
+    #00aac3 66.6%,
+    #00aac3 83.25%,
+    #732982 83.25%,
+    #732982 100%,
+    #e7484f 100%
+  );
+  opacity: 0.8;
+  color: var(--color-black);
+  font-weight: bolder;
+  animation: slidebg 2.5s linear infinite;
+}
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+}
+
+/* CONTENT SECTION */
+/* CONTENT */
+.content {
+  padding: 0 15px;
+  max-width: 900px;
+  margin: 0 auto;
+  color: var(--color-white);
+  font-family: "Pleasewritemeasong", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+/* PICTURE */
+.picture {
+  width: 180px;
+  margin: 0 1.5em 1em 0;
+  float: left;
+  display: block;
+}
+
+.picture img {
+  animation-duration: 2.5s;
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.boolean_anchor {
+  color: brown;
+}
+
+.boolean_anchor:hover {
+  color: var(--color-blood);
+  border: 1px dotted var(--color-blood);
+  background-color: var(--color-cadet);
+  padding: 5px;
+}
+
+.list_tech li p {
+  display: flex;
+}
+
+.list_tech li p .underline {
+  flex-shrink: 0;
+  padding: 0 8px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.title_techs {
+  max-width: fit-content;
+}
+
+/**/
+/* MEDIA QUERY */
+/**/
+
+.about {
+  padding: 20px;
+}
+
+.about h1 {
+  font-size: 70px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.download {
+  padding: 7px 15px;
+  font-size: 13px;
+}
+
+.download:after {
+  top: 8px;
+}
+
+.content_section {
+  padding: 40px 10px;
+}
+
+.picture {
+  width: 110px;
+  margin: 0 0.5em 0.8em 0;
+  padding: 10px;
+}
+
+.text_about,
+.title_techs {
+  font-size: 14px;
+}
+
+@media (min-width: 576px) {
+  .about {
+    padding: 30px;
+  }
+
+  .about h1 {
+    font-size: 80px;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+
+  .download {
+    padding: 7px 15px;
+    font-size: 15px;
+  }
+
+  .download:after {
+    top: 9px;
+  }
+
+  .picture {
+    width: 120px;
+    margin: 0 0.8em 1em 0;
+    padding: 10px;
+  }
+
+  .text_about,
+  .title_techs {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about {
+    padding: 30px;
+  }
+
+  .about h1 {
+    font-size: 90px;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+
+  .download:after {
+    top: 9px;
+  }
+
+  .content_section {
+    padding: 50px 15px;
+  }
+
+  .picture {
+    width: 130px;
+    margin: 0 0.8em 1em 0;
+    padding: 10px;
+  }
+
+  .text_about,
+  .title_techs {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about {
+    padding: 40px;
+  }
+
+  .about h1 {
+    font-size: 110px;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+
+  .download {
+    padding: 10px 15px;
+  }
+
+  .download:after {
+    top: 12px;
+  }
+
+  .content_section {
+    padding: 75px 0;
+  }
+
+  .picture {
+    width: 150px;
+    margin: 0 0.8em 0 0;
+    padding: 15px;
+  }
+
+  .text_about,
+  .title_techs {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about h1 {
+    font-size: 120px;
+    letter-spacing: 5px;
+    margin: 0;
+  }
+
+  .download {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .download:after {
+    top: 10px;
+  }
+
+  .picture {
+    width: 180px;
+    margin: 0 1.2em 0.4em 0;
+    padding: 15px;
+  }
+
+  .text_about,
+  .title_techs {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,105 @@
+/**/
+/* HEADER */
+/**/
+.main-header {
+  width: 100%;
+  min-height: 30px;
+  border-bottom: 1px solid var(--color-white);
+  font-family: "MouldyCheese-Regular", sans-serif;
+  font-weight: bold;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+/* HEADER BUTTON*/
+.links,
+.toggle {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.logo {
+  background-color: var(--bg-white);
+  padding: 15px;
+}
+
+.button,
+.toggle {
+  align-self: center;
+}
+
+.button {
+  padding: 0 20px;
+  position: relative;
+  color: var(--color-white);
+  transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+  font-weight: 500;
+}
+
+.button > a {
+  display: block;
+  position: relative;
+  z-index: 999;
+}
+
+.button:before,
+.button:after {
+  content: "";
+  position: absolute;
+  transition: inherit;
+}
+
+.button:hover {
+  color: var(--color-black);
+  transition: 0.8s;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.button:hover:before {
+  transition-delay: 0s;
+}
+
+.button:hover:after {
+  background-color: var(--bg-white);
+  transition-delay: 0.5s;
+}
+
+.left:before,
+.left:after {
+  top: 0;
+  width: 0;
+  height: 100%;
+}
+
+.left:before {
+  right: 0;
+  border: 1px solid var(--color-black);
+  border-left: 0;
+  border-right: 0;
+}
+
+.left:after {
+  left: 0;
+}
+
+.left:hover:before,
+.left:hover:after {
+  width: 100%;
+}
+
+/* TOGGLE */
+.toggle {
+  margin-left: auto;
+  margin-right: 35px;
+  color: var(--color-white);
+  gap: 3px;
+}
+
+.bulb {
+  width: 30px;
+  filter: invert(1);
+}

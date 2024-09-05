@@ -1,0 +1,36 @@
+/**/
+/* FOOTER */
+/**/
+.main-footer {
+  width: 100%;
+  border-top: 1px solid var(--color-white);
+}
+
+.link-item {
+  width: 25px;
+  display: block;
+}
+
+.git {
+  filter: invert(100%);
+}
+
+.img-links,
+.email-box {
+  align-self: center;
+}
+
+.git:hover,
+.linkedin:hover {
+  transform: scale(1.2);
+}
+
+.email-box {
+  margin-left: auto;
+  margin-right: 35px;
+}
+
+.email {
+  width: 50px;
+  display: block;
+}

@@ -1,31 +1,31 @@
 <template>
-    <div class="container bg-black border_bottom_white">
-        <div class="row">
-            <div class="col-3">
-                <div class="logo bg-white">
-                    DM
-                </div>
-            </div>
-            <div>
-              <ul class="col-3 links">
-                <li>About</li>
-                <li>Works</li>
-              </ul>  
-            </div>
-        </div>
-    </div>
+  <header class="main-header">
+    <nav class="nav-bar">
+      <!-- Buttons -->
+      <ul class="links d-flex">
+        <!-- HomePage -->
+        <li class="logo"><RouterLink to="/">DM</RouterLink></li>
+        <!-- About -->
+        <li class="button left"><RouterLink to="/about">ABOUT</RouterLink></li>
+        <!-- Projects -->
+        <li class="button left"><Routerlink to="/works">WORKS</Routerlink></li>
+      </ul>
+      <!-- Dark/Light Mode -->
+      <div class="toggle d-flex align-items-center">
+        <img class="bulb" src="./loghi/bulb-off.png" alt="" />
+      </div>
+    </nav>
+  </header>
 </template>
 
 <script>
-export default {
-    data () {
-        
+import { RouterLink } from 'vue-router';
 
-        return {}
-    }
-}
+export default {
+  data() {
+    return {};
+  },
+};
 </script>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>
