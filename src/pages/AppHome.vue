@@ -4,7 +4,7 @@
       <p class="col-12 mb-0">DAVIDE</p>
       <p class="col-12 mb-0 line_height">MORELLATO</p>
     </div>
-    <a href="#">
+    <RouterLink to="/works">
       <img class="octopus" src="./loghi/octopus_minimal.png" alt="" />
       <div class="bubble">
         <p>
@@ -13,7 +13,7 @@
           Welcome to my world.
         </p>
       </div>
-    </a>
+    </RouterLink>
   </div>
 </template>
 

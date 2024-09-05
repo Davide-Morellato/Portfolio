@@ -8,7 +8,7 @@
         <!-- About -->
         <li class="button left"><RouterLink to="/about">ABOUT</RouterLink></li>
         <!-- Projects -->
-        <li class="button left"><Routerlink to="/works">WORKS</Routerlink></li>
+        <li class="button left"><RouterLink to="/works">WORKS</RouterLink></li>
       </ul>
       <!-- Dark/Light Mode -->
       <div class="toggle d-flex align-items-center">
