@@ -3,37 +3,37 @@
 /**/
 @font-face {
   font-family: "MouldyCheese-Regular";
-  src: url("../../../public/fonts/mouldy_cheese/MouldyCheese-Regular.woff");
+  src: url("/fonts/mouldy_cheese/MouldyCheese-Regular.woff");
 }
 
 @font-face {
   font-family: "WorkforceCombinePERSONALUSE-Regular";
-  src: url("../../../public/fonts/workforceCombine_font_ready/WorkforceCombinePERSONALUSE-Regular.ttf");
+  src: url("/fonts/workforceCombine_font_ready/WorkforceCombinePERSONALUSE-Regular.ttf");
 }
 
 @font-face {
   font-family: "TiltPrism-Regular";
-  src: url("../../../public/fonts/tiltPrism_font_ready/TiltPrism-Regular.ttf");
+  src: url("/fonts/tiltPrism_font_ready/TiltPrism-Regular.ttf");
 }
 
 @font-face {
   font-family: "Gluten-Thin";
-  src: url("../../../public/fonts/gluten_font_ready/Gluten-Thin.ttf");
+  src: url("/fonts/gluten_font_ready/Gluten-Thin.ttf");
 }
 
 @font-face {
   font-family: "Pleasewritemeasong";
-  src: url("../../../public/fonts/handwrite/Pleasewritemeasong.woff");
+  src: url("/fonts/handwrite/Pleasewritemeasong.woff");
 }
 
 @font-face {
   font-family: "Danfo-Regular";
-  src: url("../../../public/fonts/danfo_font_ready/Danfo-Regular.ttf");
+  src: url("/fonts/danfo_font_ready/Danfo-Regular.ttf");
 }
 
 @font-face {
   font-family: "SeductiveHeightBold-Bold";
-  src: url("../../../public/fonts/seductiveHeight_font_ready/SeductiveHeightBold-Bold.woff");
+  src: url("/fonts/seductiveHeight_font_ready/SeductiveHeightBold-Bold.woff");
 }
 
 /**/
@@ -41,11 +41,23 @@
 /**/
 :root {
   --bg-dark: black;
+  --bg-mice: rgba(255, 255, 255, 0.1);
   --bg-white: whitesmoke;
   --color-black: black;
   --color-white: whitesmoke;
+  --color-ice: rgba(255, 255, 255, 0.5);
+  --color-blood: rgb(94, 8, 8);
+  --color-cadet: cadetblue;
+  --color-orange: #ffb303;
+  --color-barbie: rgb(171, 76, 125);
 }
 
 .bor-white {
   border: 1px solid var(--color-white);
+}
+
+.pos-relative{
+  position: relative;
+  top: 120px;
+
 }

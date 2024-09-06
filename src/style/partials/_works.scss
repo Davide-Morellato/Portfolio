@@ -1,3 +1,16 @@
+/* MAIN */
+// main {
+//   flex-grow: 1;
+//   overflow: auto;
+//   scrollbar-width: none;
+//   --fade-start: 80%;
+//   mask-image: linear-gradient(
+//     to bottom,
+//     var(--color-white) var(--fade-start),
+//     transparent
+//   );
+// }
+
 /* WORKS SECTION */
 /* WORK */
 .work {
@@ -162,43 +175,44 @@
   cursor: pointer;
   box-shadow: 1px 5px 15px #1e0e3e;
   position: relative;
+  cursor: default;
 }
 
 .project_container > div:nth-of-type(1) {
-  background: url("../../public/screen/fizzbuzz.png") no-repeat 50% / cover;
+  background: url("/screen/fizzbuzz.png") no-repeat 50% / cover;
 }
 .project_container > div:nth-of-type(2) {
-  background: url("../../public/screen/dropbox.jpg") no-repeat 50% / cover;
+  background: url("/screen/dropbox.jpg") no-repeat 50% / cover;
 }
 .project_container > div:nth-of-type(3) {
-  background: url("../../public/screen/campo_minato.png") no-repeat 50% / cover;
+  background: url("/screen/campo_minato.png") no-repeat 50% / cover;
 }
 .project_container > div:nth-of-type(4) {
-  background: url("../../public/screen/slider.png") no-repeat 50% / cover;
+  background: url("/screen/slider.png") no-repeat 50% / cover;
 }
 .project_container > div:nth-of-type(5) {
-  background: url("../../public/screen/boolzapp.png") no-repeat 50% / cover;
+  background: url("/screen/boolzapp.png") no-repeat 50% / cover;
 }
 .project_container > div:nth-of-type(6) {
-  background: url("../../public/screen/boolando.png") no-repeat 50% / cover;
+  background: url("/screen/boolando.png") no-repeat 50% / cover;
 }
 .project_container > div:nth-of-type(7) {
-  background: url("../../public/screen/portfolio.png") no-repeat 50% / cover;
+  background: url("/screen/portfolio.png") no-repeat 50% / cover;
 }
 .project_container > div:nth-of-type(8) {
-  background: url("../../public/screen/game_creator.png") no-repeat 50% / cover;
+  background: url("/screen/game_creator.png") no-repeat 50% / cover;
 }
 .project_container > div:nth-of-type(9) {
-  background: url("../../public/screen/deliveboo.png") no-repeat 50% / cover;
+  background: url("/screen/deliveboo.png") no-repeat 50% / cover;
 }
 .project_container > div:nth-of-type(10) {
-  background: url("../../public/screen/deliveboo-api.jpg") no-repeat 50% / cover;
+  background: url("/screen/deliveboo-api.jpg") no-repeat 50% / cover;
 }
 .project_container > div:nth-of-type(11) {
-  background: url("../../public/screen/kart_crash.png") no-repeat 50% / cover;
+  background: url("/screen/kart_crash.png") no-repeat 50% / cover;
 }
 .project_container > div:nth-of-type(12) {
-  background: url("../../public/screen/actual_portfolio.png") no-repeat 50% / cover;
+  background: url("/screen/actual_portfolio.png") no-repeat 50% / cover;
 }
 
 .project_container > div:hover {
@@ -217,7 +231,7 @@
   font-family: "Pleasewritemeasong", sans-serif;
   letter-spacing: 2px;
   font-weight: bolder;
-  color: white;
+  color: var(--color-white);
   display: flex;
   align-items: center;
   padding: 15px;
@@ -253,9 +267,9 @@
   background-color: transparent;
   text-transform: uppercase;
   padding: 13px;
-  border: 2px solid rgb(182, 115, 150);
+  border: 2px solid var(--color-barbie);
   border-radius: 10px;
-  color: rgb(182, 115, 150);
+  color: var(--color-barbie);
   letter-spacing: 0.3rem;
   position: relative;
   transition: all 1000ms cubic-bezier(0.89, -0.17, 0.14, 1.225);
@@ -308,7 +322,7 @@
   content: "";
   height: 1px;
   width: 25px;
-  background-color: rgb(182, 115, 150);
+  background-color: var(--color-barbie);
   position: absolute;
   margin-top: 6px;
   right: -20px;

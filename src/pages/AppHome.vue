@@ -5,7 +5,11 @@
       <p class="col-12 mb-0 line_height">MORELLATO</p>
     </div>
     <RouterLink to="/works">
-      <img class="octopus" src="../../public/loghi/octopus_minimal.png" alt="" />
+      <img
+        class="octopus"
+        src="../../public/loghi/octopus_minimal.png"
+        alt=""
+      />
       <div class="bubble">
         <p>
           Hi!,
@@ -21,12 +25,14 @@
 import { store } from "../store.js";
 
 export default {
-  data(){
-    return{
+  data() {
+    return {
       store,
-    }
-  }
+    };
+  },
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

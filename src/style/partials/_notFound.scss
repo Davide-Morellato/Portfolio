@@ -1,0 +1,109 @@
+/**/
+/* NOT FOUND */
+.not-found {
+  background-size: cover;
+  height: 100vh;
+}
+
+.container_message {
+  padding-top: 150px;
+  padding-right: 150px;
+}
+
+.box-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-message h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 0;
+  color: var(--color-orange);
+}
+
+.box-message h3 {
+  color: var(--color-orange);
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.box-message p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: var(--color-white);
+}
+
+.a-link {
+  color: var(--color-white);
+  text-decoration: none;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+.a-link:hover {
+  text-decoration: none;
+  color: var(--color-orange);
+}
+
+.a-link::before {
+  transition: 0.3s all ease-in-out;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: var(--bg-mice);
+}
+
+.a-link:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+
+.a-link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: 0.3s all ease-in-out;
+  border: 1px solid var(--color-ice);
+  transform: scale(1.2, 1.2);
+}
+
+.a-link:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+/**/
+/* MEDIA QUERY */
+.not-found {
+  background: url("../../public/img/robot.jpg") no-repeat 35% / cover;
+}
+
+@media (min-width: 576px) {
+  .not-found {
+    background: url("../../public/img/robot.jpg") no-repeat 20% / cover;
+  }
+}
+
+@media (min-width: 992px) {
+  .box-message {
+    align-items: flex-end;
+  }
+}

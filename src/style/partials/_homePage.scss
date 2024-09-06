@@ -1,4 +1,8 @@
-
+/* MAIN */
+main{
+  flex-grow: 1;
+}
+;
 /* MAIN_PAGE */
 .main_page {
     font-family: "WorkforceCombinePERSONALUSE-Regular", sans-serif;
@@ -13,6 +17,7 @@
     position: absolute;
     transition: transform 1s;
     transform: rotate(45deg);
+    z-index: 1
   }
   
   .bubble p {
@@ -215,8 +220,8 @@
     }
   
     .bubble {
-      top: 30px;
-      right: 275px;
+      // top: 30px;
+      right: 250px;
     }
     
     .line_height {
