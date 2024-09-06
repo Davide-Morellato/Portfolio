@@ -1,23 +1,21 @@
 <script>
-import Main from './components/Main.vue'
-import Header from './components/Header.vue'
+import Header from "./components/Header.vue";
 
-export default{
-    components: {
-      Main,
-      Header,
-    },
-}
+export default {
+  components: {
+    Header,
+  },
+};
 </script>
 
 <template>
-  <Header />
+    <Header></Header>
 
-  <main>
-    <RouterView />
-  </main>
+    <main>
+      <RouterView />
+    </main>
 </template>
 
-<style>
-
+<style lang="scss">
+@import "./style/general.scss";
 </style>

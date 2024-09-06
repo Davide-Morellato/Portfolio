@@ -1,1 +1,9 @@
 @use "bootstrap/scss/bootstrap";
+@use './partials/utilities.scss';
+@use './partials/reset.scss';
+@use './partials/layout.scss';
+@use './partials/header.scss';
+@use './partials/homePage.scss';
+@use './partials/about.scss';
+@use './partials/works.scss';
+@use './partials/footer.scss';
