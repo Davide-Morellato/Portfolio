@@ -91,7 +91,7 @@ export const store = reactive({
     {
       repo: "Portfolio Simulation",
       path: "/screen/portfolio.png",
-      description: 'Project consisting in the design of a portfolio through which to show one\`s work, by making calls to Axios from the associated back-end project',
+      description: 'Project consisting in the design of a portfolio through which to show one\`s work, by making calls to Axios from the associated back-end project.',
       link: 'https://github.com/Davide-Morellato/vite-boolfolio',
       techs: ['HTML5', 'CSS3', 'Javascript', 'Vue', 'SCSS']
     },
