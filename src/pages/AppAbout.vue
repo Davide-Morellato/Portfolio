@@ -10,7 +10,7 @@
             </div>
             <div class="bor-white download">
               <!-- <a href="#" download="CV_Davide_Morellato"> Download CV </a> -->
-              <a href="../../../public/cv/Davide Morellato_CV_en.pdf" download="CV_Davide_Morellato"> Download CV </a>
+              <a href="/download/Davide Morellato_CV_en.pdf" download> Download CV </a>
             </div>
           </div>
   </section>
@@ -67,7 +67,7 @@
           considerably.
         </p>
         <p>
-          During the <a href="../../../public/download/Certificato_Full_Stack_Web_Development.pdf" class="boolean_anchor" download="Boolean_Certificate"> <span class="underline">Boolean Course</span></a> I've studied different technologies:
+          During the <a href="/download/Certificato_Full_Stack_Web_Development.pdf" class="boolean_anchor" download="Boolean_Certificate"> <span class="underline">Boolean Course</span></a> I've studied different technologies:
           <ul class="ps-0 list_tech">
             <h5 class="title_techs bor-white p-2 text-center"><strong>Front-End Development:</strong></h5>
             <li>
@@ -134,16 +134,6 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-main {
-  flex-grow: 1;
-  overflow: auto;
-  scrollbar-width: none;
-  --fade-start: 80%;
-  mask-image: linear-gradient(
-    to bottom,
-    var(--color-white) var(--fade-start),
-    transparent
-  );
-}
+<style lang="scss">
+
 </style>

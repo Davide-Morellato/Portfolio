@@ -12,7 +12,7 @@
       </ul>
       <!-- Dark/Light Mode -->
       <div class="toggle d-flex align-items-center">
-        <img class="bulb" src="../../public/loghi/bulb-off.png" alt="" />
+        <img class="bulb" src="/loghi/bulb-off.png" alt="" />
       </div>
     </nav>
   </header>
@@ -28,4 +28,6 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+@use '../style/partials/header.scss';
+</style>

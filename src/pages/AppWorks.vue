@@ -19,7 +19,7 @@
     <div class="container">
       <div class="row">
         <div class="project_container pb-2">
-          <Projects v-for="project in store.projects" :project="project" />
+          <Projects v-for="(project, i) in store.projects" :project="project" :key="i"/>
         </div>
       </div>
     </div>
@@ -47,16 +47,5 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-main {
-  flex-grow: 1;
-  overflow: auto;
-  scrollbar-width: none;
-  --fade-start: 80%;
-  mask-image: linear-gradient(
-    to bottom,
-    var(--color-white) var(--fade-start),
-    transparent
-  );
-}
+<style lang="scss">
 </style>

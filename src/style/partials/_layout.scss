@@ -6,3 +6,14 @@
   opacity: 0.96;
 }
 
+main {
+  flex-grow: 1;
+  overflow: auto;
+  scrollbar-width: none;
+  --fade-start: 90%;
+  mask-image: linear-gradient(
+    to bottom,
+    var(--color-white) var(--fade-start),
+    transparent
+  );
+}

@@ -1,5 +1,5 @@
 <template>
-  <div class="container main_page d-flex flex-wrap">
+  <div class="container main_page">
     <div class="row">
       <p class="col-12 mb-0">DAVIDE</p>
       <p class="col-12 mb-0 line_height">MORELLATO</p>
@@ -7,7 +7,7 @@
     <RouterLink to="/works">
       <img
         class="octopus"
-        src="../../public/loghi/octopus_minimal.png"
+        src="/loghi/octopus_minimal.png"
         alt=""
       />
       <div class="bubble">
@@ -33,6 +33,6 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 </style>

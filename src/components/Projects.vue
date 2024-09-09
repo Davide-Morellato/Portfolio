@@ -5,6 +5,11 @@
       <p>
         {{ project.description }}
       </p>
+      <p>Techs:
+      <ul class="d-flex flex-wrap gap-2 align-center ps-0">
+        <li class="techs" v-for="tech in project.techs">{{ tech }}</li>
+      </ul>
+    </p>
       <div class="btn-slice" >
         <a :href="`${project.link}`">
           <div class="top"><span>STRIP ME</span></div>
@@ -208,4 +213,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.techs{
+  border: 1px solid var(--color-white);
+  border-radius: 10px;
+  padding: 2px 5px;
+  background-color: var(--bg-mice);
+}
+</style>
