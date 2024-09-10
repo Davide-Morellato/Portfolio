@@ -44,6 +44,9 @@ export default {
       store,
     };
   },
+  created(){
+    this.store.topWindow()
+  }
 };
 </script>
 

@@ -10,6 +10,11 @@
   min-height: 100%;
 }
 
+.wallpaper{
+  width: 65%;
+  align-self: center;
+}
+
 .octopus {
   // filter: invert(0.75);
   position: absolute;
@@ -112,19 +117,19 @@
 /* MEDIA QUERY */
 /**/
 
-.main_page {
-  font-size: 100px;
-  padding: 40px;
-}
+// .main_page {
+//   font-size: 100px;
+//   padding: 40px;
+// }
 
-.line_height {
-  line-height: 20px;
-}
+// .line_height {
+//   line-height: 20px;
+// }
 
 .octopus {
-  top: 350px;
-  right: 80px;
-  width: 65px;
+  top: 340px;
+  right: 105px;
+  width: 50px;
 }
 
 .bubble {
@@ -133,10 +138,10 @@
 }
 
 @media (min-width: 576px) {
-  .main_page {
-    font-size: 150px;
-    padding: 40px;
-  }
+  // .main_page {
+  //   font-size: 150px;
+  //   padding: 40px;
+  // }
 
   .octopus {
     top: 330px;
@@ -151,20 +156,20 @@
 }
 
 @media (min-width: 768px) {
-  .main_page {
-    font-size: 200px;
-    padding: 0 40px;
-  }
+  // .main_page {
+  //   font-size: 200px;
+  //   padding: 0 40px;
+  // }
 
   .octopus {
-    top: 445px;
-    right: 120px;
-    width: 130px;
+    top: 380px;
+    right: 175px;
+    width: 100px;
   }
 
   .bubble {
-    top: 135px;
-    right: 40px;
+    top: 225px;
+    right: 65px;
   }
 
   .bubble p {
@@ -174,52 +179,65 @@
     box-shadow: 15px 15px rgb(86, 149, 197);
   }
 
-  .line_height {
-    line-height: 35px;
-  }
+  // .line_height {
+  //   line-height: 35px;
+  // }
 }
 
 @media (min-width: 992px) {
-  .main_page {
-    font-size: 250px;
-    padding: 50px 80px;
-    display: block;
-  }
+  // .main_page {
+  //   font-size: 250px;
+  //   padding: 50px 80px;
+  //   display: block;
+  // }
 
   .octopus {
-    top: 190px;
-    right: 150px;
-    width: 170px;
+    top: 245px;
+    right: 235px;
+    width: 115px;
   }
 
   .bubble {
-    top: 65px;
-    right: 40px;
+    top: 80px;
+    right: 140px;
   }
 
-  .line_height {
-    line-height: 45px;
-  }
+  // .line_height {
+  //   line-height: 45px;
+  // }
 }
 
 @media (min-width: 1200px) {
-  .main_page {
-    font-size: 300px;
-    padding: 0 260px;
-  }
+  // .main_page {
+  //   font-size: 300px;
+  //   padding: 0 260px;
+  // }
 
   .octopus {
-    top: 170px;
-    right: 375px;
-    width: 190px;
+    top: 215px;
+    right: 280px;
+    width: 150px;
   }
 
   .bubble {
     // top: 30px;
-    right: 250px;
+    right: 185px;
   }
 
-  .line_height {
-    line-height: 45px;
+  // .line_height {
+  //   line-height: 45px;
+  // }
+}
+
+@media (min-width: 1400px) {
+  .octopus {
+    top: 175px;
+    right: 370px;
+    width: 180px;
+  }
+
+  .bubble {
+    // top: 30px;
+    right: 245px;
   }
 }

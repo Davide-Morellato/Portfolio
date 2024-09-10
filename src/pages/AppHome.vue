@@ -1,7 +1,8 @@
 <template>
   <div class="container main_page">
-      <p class="col-12 mb-0">DAVIDE</p>
-      <p class="col-12 mb-0 line_height">MORELLATO</p>
+      <!-- <p class="col-12 mb-0">DAVIDE</p>
+      <p class="col-12 mb-0 line_height">MORELLATO</p> -->
+      <img class="wallpaper" src="/public/img/Screenshot 2024-09-10 145830.png" alt="">
     <RouterLink to="/works">
       <img
         class="octopus"

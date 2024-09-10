@@ -133,4 +133,8 @@ export const store = reactive({
       techs: ['HTML5', 'CSS3', 'Javascript', 'Vue', 'SCSS']
     },
   ],
+
+  topWindow() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  },
 });

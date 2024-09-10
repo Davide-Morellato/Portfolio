@@ -7,10 +7,14 @@
         <li class="logo"><RouterLink to="/">DM</RouterLink></li>
         <!-- About -->
         <!-- @click="topWindow" -->
-        <li class="button left"><RouterLink to="/about">ABOUT</RouterLink></li>
+        <li class="button left">
+          <RouterLink to="/about" @click="store.topWindow">ABOUT</RouterLink>
+        </li>
         <!-- Projects -->
         <!-- @click="topWindow" -->
-        <li class="button left"><RouterLink to="/works">WORKS</RouterLink></li>
+        <li class="button left">
+          <RouterLink to="/works" @click="store.topWindow">WORKS</RouterLink>
+        </li>
       </ul>
       <!-- Dark/Light Mode -->
       <!-- <div class="toggle d-flex align-items-center">
