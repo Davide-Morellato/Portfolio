@@ -84,7 +84,6 @@
   display: grid;
   align-items: center;
   justify-items: center;
-  transition: transform 0.3s linear;
 }
 
 .slide .box-prog-lang {
@@ -155,6 +154,20 @@
   gap: 30px;
 }
 
+.project_container > div{
+  opacity: 0;
+  animation: fadeInBottomProj 2s ease-in both;
+}
+
+@keyframes fadeInBottomProj {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+  }
+}
 .project_container > div {
   border-radius: 0.5rem;
   transition: 0.5s ease-in-out;
