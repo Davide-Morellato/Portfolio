@@ -4,7 +4,7 @@
   color: var(--color-white);
   cursor: default;
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
   justify-content: center;
   min-width: 100%;
   min-height: 100%;
@@ -13,11 +13,12 @@
 .wallpaper{
   width: 65%;
   align-self: center;
+  position: absolute;
 }
 
 .octopus {
   // filter: invert(0.75);
-  position: absolute;
+  position: relative;
   transition: transform 1s;
   transform: rotate(45deg);
   z-index: 1;

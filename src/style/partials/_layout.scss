@@ -1,8 +1,11 @@
+body{
+  background-color: var(--bg-dark);
+}
+
 #app {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: var(--bg-dark);
 }
 
 main {
