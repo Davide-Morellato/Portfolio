@@ -18,21 +18,28 @@
   z-index: 1;
 }
 
+.octopus {
+  position: absolute;
+  transition: transform 1s;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
 .bubble p {
   width: min-content;
-  transform: translatey(0px);
+  transform: translateY(0px);
   animation: float 5s ease-in-out infinite;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
   font-size: 10px;
-  color: var(--color-black);
-  background-color: rgb(218, 242, 255);
+  color: black;
+  background-color: var(--bg-light);
   padding: 20px;
   border-radius: 11px;
   position: relative;
-  box-shadow: 10px 10px rgb(86, 149, 197);
+  box-shadow: 10px 10px var(--color-sky);
   font-family: "Baloo 2", cursive;
 }
 
@@ -41,20 +48,20 @@
   animation: float2 5s ease-in-out infinite;
   content: ".";
   font-weight: bold;
-  -webkit-text-fill-color: rgb(218, 242, 255);
-  text-shadow: 12px 12px rgb(86, 149, 197);
+  -webkit-text-fill-color: var(--bg-light);
+  text-shadow: 12px 12px var(--color-sky);
   text-align: left;
   font-size: 55px;
   width: 55px;
   height: 11px;
   line-height: 30px;
   border-radius: 11px;
-  background-color: rgb(218, 242, 255);
+  background-color: var(--bg-light);
   position: absolute;
   display: block;
   bottom: -15px;
   left: 0;
-  box-shadow: 12px 12px rgb(86, 149, 197);
+  box-shadow: 12px 12px var(--color-sky);
   z-index: -2;
 }
 

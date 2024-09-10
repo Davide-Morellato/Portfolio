@@ -133,4 +133,13 @@ export const store = reactive({
       techs: ['HTML5', 'CSS3', 'Javascript', 'Vue', 'SCSS']
     },
   ],
+
+  // state: {
+  //   isDarkMode: true
+  // },
+
+  // toggleMode() {
+  //   this.state.isDarkMode = !this.state.isDarkMode;
+  //   localStorage.setItem('darkMode', this.state.isDarkMode);
+  // }
 });

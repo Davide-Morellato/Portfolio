@@ -6,28 +6,37 @@
         <!-- HomePage -->
         <li class="logo"><RouterLink to="/">DM</RouterLink></li>
         <!-- About -->
+        <!-- @click="topWindow" -->
         <li class="button left"><RouterLink to="/about">ABOUT</RouterLink></li>
         <!-- Projects -->
+        <!-- @click="topWindow" -->
         <li class="button left"><RouterLink to="/works">WORKS</RouterLink></li>
       </ul>
       <!-- Dark/Light Mode -->
       <div class="toggle d-flex align-items-center">
-        <img class="bulb" src="/loghi/bulb-off.png" alt="" />
+        <img
+          class="bulb"
+          src="/loghi/bulb-off.png"
+          alt=""
+        />
       </div>
     </nav>
   </header>
 </template>
 
 <script>
-import { RouterLink } from 'vue-router';
+import { RouterLink } from "vue-router";
+import { store } from "../store";
 
 export default {
   data() {
-    return {};
+    return {
+      store,
+    };
   },
 };
 </script>
 
 <style lang="scss">
-@use '../style/partials/header.scss';
+@use "../style/partials/header.scss";
 </style>

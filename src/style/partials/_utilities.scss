@@ -40,23 +40,53 @@
 /* ROOT */
 /**/
 :root {
-  --bg-dark: black;
-  --bg-mice: rgba(255, 255, 255, 0.1);
+  --bg-dark: #0d0c0c;
   --bg-white: whitesmoke;
-  --color-black: black;
+  --bg-sky: rgb(86, 149, 197);
+  --bg-light: rgb(218, 242, 255);
+  --color-sky: rgb(86, 149, 197);
+  --color-black: #0d0c0c;
   --color-white: whitesmoke;
-  --color-ice: rgba(255, 255, 255, 0.5);
-  --color-blood: rgb(94, 8, 8);
-  --color-cadet: cadetblue;
-  --color-orange: #ffb303;
-  --color-barbie: rgb(171, 76, 125);
+  --color-rust: rgb(162, 61, 40);
 }
+
+// /* LIGHT MODE */
+// .light-mode {
+//   --bg-color: var(--bg-white);
+//   --text-color: var(--color-black);
+// }
+
+// .light-mode .logo {
+//   background-color: var(--color-black);
+//   color: var(--color-white);
+// }
+
+// .light-mode .button, .light-mode .left {
+//   color: var(--color-black);
+// }
+
+// .light-mode .button:hover, .light-mode .left:hover {
+//   background-color: var(--color-black);
+//   color: var(--color-white);
+// }
+
+// .light-mode .bor-white {
+//   border: 1px solid var(--color-black);
+// }
+
+// .light-mode .octopus_minimal {
+//   content: url('/loghi/octopus_colored.png');
+//   filter: none;
+// }
+
+// .light-mode .bubble p, .light-mode .bubble p:after {
+//   box-shadow: 0 0 10px var(--color-rust);
+//   background-color: var(--bg-sky);
+// }
+
+
+/* BORDER */
 
 .bor-white {
   border: 1px solid var(--color-white);
-}
-
-.pos-relative{
-  position: relative;
-  top: 120px;
 }

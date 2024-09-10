@@ -215,9 +215,9 @@ export default {
 
 <style lang="scss" scoped>
 .techs{
-  border: 1px solid var(--color-white);
+  border: 1px solid whitesmoke;
   border-radius: 10px;
   padding: 2px 5px;
-  background-color: var(--bg-mice);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 </style>

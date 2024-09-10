@@ -253,9 +253,9 @@
   background-color: transparent;
   text-transform: uppercase;
   padding: 13px;
-  border: 2px solid var(--color-barbie);
+  border: 2px solid rgb(171, 76, 125);
   border-radius: 10px;
-  color: var(--color-barbie);
+  color: rgb(171, 76, 125);
   letter-spacing: 0.3rem;
   position: relative;
   transition: all 1000ms cubic-bezier(0.89, -0.17, 0.14, 1.225);
@@ -308,7 +308,7 @@
   content: "";
   height: 1px;
   width: 25px;
-  background-color: var(--color-barbie);
+  background-color: rgb(171, 76, 125);
   position: absolute;
   margin-top: 6px;
   right: -20px;
