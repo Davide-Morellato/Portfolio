@@ -91,7 +91,7 @@ export const store = reactive({
     {
       repo: "Portfolio Simulation",
       path: "/screen/portfolio.png",
-      description: 'Project consisting in the design of a portfolio through which to show one\`s work, by making calls to Axios from the associated back-end project.',
+      description: 'Project consisting in the design of a portfolio through which to show one\`s work, by making calls to Axios from the associated back-end project: laravel-api (github).',
       link: 'https://github.com/Davide-Morellato/vite-boolfolio',
       techs: ['HTML5', 'CSS3', 'Javascript', 'Vue', 'SCSS']
     },
@@ -133,13 +133,4 @@ export const store = reactive({
       techs: ['HTML5', 'CSS3', 'Javascript', 'Vue', 'SCSS']
     },
   ],
-
-  // state: {
-  //   isDarkMode: true
-  // },
-
-  // toggleMode() {
-  //   this.state.isDarkMode = !this.state.isDarkMode;
-  //   localStorage.setItem('darkMode', this.state.isDarkMode);
-  // }
 });
