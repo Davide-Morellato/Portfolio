@@ -14,22 +14,18 @@ export default {
       store,
     }
   },
-
-  // created() {
-  // const savedMode = localStorage.getItem('darkMode');
-  // this.store.state.isDarkMode = savedMode === 'true';
-  // }
 };
 </script>
 
 <template>
+  <!-- controllo sull'header per evitare che compaia nel Not Found -->
   <Header v-if="this.$route.name !== 'not-found'"></Header>
 
   <main>
     <RouterView />
   </main>
 
-  <!-- controllo sul footer per evitare che compaia nella Home Page -->
+  <!-- controllo sul footer per evitare che compaia nella Home Page & nel Not Found -->
   <Footer
     v-if="this.$route.name !== 'home-page' && this.$route.name !== 'not-found'"
   ></Footer>

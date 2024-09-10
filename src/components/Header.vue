@@ -13,13 +13,13 @@
         <li class="button left"><RouterLink to="/works">WORKS</RouterLink></li>
       </ul>
       <!-- Dark/Light Mode -->
-      <div class="toggle d-flex align-items-center">
+      <!-- <div class="toggle d-flex align-items-center">
         <img
           class="bulb"
           src="/loghi/bulb-off.png"
           alt=""
         />
-      </div>
+      </div> -->
     </nav>
   </header>
 </template>

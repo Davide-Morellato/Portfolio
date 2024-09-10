@@ -5,7 +5,7 @@
     <RouterLink to="/works">
       <img
         class="octopus"
-        src="/loghi/octopus_minimal.png"
+        src="/loghi/octopus_colored.png"
         alt=""
       />
       <div class="bubble">

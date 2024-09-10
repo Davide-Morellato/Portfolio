@@ -99,7 +99,7 @@ export const store = reactive({
       repo: "Game Creator",
       path: "/screen/game_creator.png",
       description: 'First team project. The application, developed with Laravel, allows new characters to be created, their details to be changed, and all available weapons and character types to be displayed.',
-      link: 'https://github.com/Davide-Morellato/',
+      link: 'https://github.com/Davide-Morellato/game-creator',
       techs: ['PHP', 'Laravel', 'HTML5', 'SCSS']
     },
     {
@@ -107,7 +107,7 @@ export const store = reactive({
       subTitle: "Front-End",
       path: "/screen/deliveboo.png",
       description: 'Final Course Front-End Project. A food delivery web-app designed for ordering one\'s favourite dishes from the comfort of one\'s own home. Users can search for a restaurant, order, see the summary in their shopping cart and finally pay.',
-      link: 'https://github.com/Davide-Morellato/',
+      link: 'https://github.com/Davide-Morellato/deliveboo',
       techs: ['HTML5', 'CSS3', 'Javascript', 'Vue', 'SCSS']
     },
     {
@@ -115,7 +115,7 @@ export const store = reactive({
       subTitle: "Back-End",
       path: "/screen/deliveboo-api.jpg",
       description: 'Final Course Back End Project. An administrative web-app designed for restaurant partners of the Deliveboo site.Here users can manage their restaurant: including orders and menus.',
-      link: 'https://github.com/Davide-Morellato/',
+      link: 'https://github.com/Davide-Morellato/deliveboo-api',
       techs: ['PHP', 'Laravel', 'HTML5', 'CSS3']
     },
     {
