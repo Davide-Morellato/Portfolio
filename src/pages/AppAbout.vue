@@ -66,7 +66,9 @@
           considerably.
         </p>
         <p :class="{'light-mode': store.isLightMode}">
-          During the <a href="/download/Certificato_Full_Stack_Web_Development.pdf" class="boolean_anchor" download="Boolean_Certificate"> <span class="underline">Boolean Course</span></a> I've studied different technologies:
+          <p :class="{'light-mode': store.isLightMode }">
+            During the <a href="/download/Certificato_Full_Stack_Web_Development.pdf" class="boolean_anchor" download="Boolean_Certificate"> <span class="underline">Boolean Course</span></a> I've studied different technologies:
+          </p>
           <ul class="ps-0 list_tech">
             <h5 class="title_techs bor-white p-2 text-center" :class="{'light-mode': store.isLightMode}"><strong>Front-End Development:</strong></h5>
             <li>

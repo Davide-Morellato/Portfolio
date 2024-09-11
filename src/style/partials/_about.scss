@@ -5,6 +5,7 @@
   color: var(--color-white);
   max-width: 100%;
   max-height: 100%;
+  cursor: default;
 
   &.light-mode{
     color: var(--color-black);
@@ -77,6 +78,7 @@
   color: var(--color-white);
   font-family: "Pleasewritemeasong", sans-serif;
   letter-spacing: 1.5px;
+  cursor: default;
 }
 
 /* PICTURE */

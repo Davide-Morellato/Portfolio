@@ -7,13 +7,15 @@
 
 .container_message {
   padding-top: 150px;
-  padding-right: 150px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .box-message {
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: default;
 }
 
 .box-message h1 {
@@ -96,14 +98,15 @@
   background: url("../../public/img/robot.jpg") no-repeat 35% / cover;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .not-found {
-    background: url("../../public/img/robot.jpg") no-repeat 20% / cover;
+    background: url("../../public/img/robot.jpg") no-repeat 35% / cover;
   }
 }
 
 @media (min-width: 992px) {
   .box-message {
     align-items: flex-end;
+    padding-right: 100px;
   }
 }
