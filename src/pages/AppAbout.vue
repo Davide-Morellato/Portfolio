@@ -1,5 +1,4 @@
 <template>
-
   <!-- About box & Contact me -->
   <section class="about_section">
           <div

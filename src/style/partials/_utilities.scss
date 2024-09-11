@@ -43,7 +43,6 @@
   /*dark mode*/
   --bg-dark: #0d0c0c;
   --color-white: whitesmoke;
-  // --color-rust: rgb(162, 61, 40);
 
   /*light mode*/
   --bg-white: rgb(242, 243, 243);
@@ -54,9 +53,8 @@
 .bor-white {
   border: 1px solid var(--color-white);
 
-  /* Cambiamento del border-bottom in modalità light */
   &.light-mode {
-    border: 1px solid var(--color-black); /* Border nero in light mode */
+    border: 1px solid var(--color-black);
   }
 }
 
@@ -68,8 +66,7 @@
 .text-content p {
   color: var(--color-white);
 
-  /* Cambiamento del colore in modalità light */
   &.light-mode {
-    color: var(--color-black); /* Testo nero in light mode */
+    color: var(--color-black);
   }
 }

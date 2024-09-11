@@ -45,7 +45,7 @@ export default {
 <style lang="scss">
 @use '../style/partials/footer.scss';
 
-/* Rimuovi il filtro in modalità light */
+/* Rimuovo il filtro in modalità light */
 .filter-off {
   filter: none;
 }

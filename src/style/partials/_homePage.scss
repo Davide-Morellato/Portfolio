@@ -1,20 +1,11 @@
 /* MAIN_PAGE */
 .main_page {
-  // font-family: "WorkforceCombinePERSONALUSE-Regular", sans-serif;
-  // color: var(--color-white);
   cursor: default;
   display: flex;
-  // flex-direction: column;
   justify-content: center;
   min-width: 100%;
   min-height: 100%;
-  // background-image: url('/public/img/image.png');
-  // background-size: contain;
-  // background-repeat: no-repeat;
-
-  // &.light-mode{
-  //   filter: invert(1);
-  // }
+  
 }
 
 .wallpaper {
@@ -56,7 +47,6 @@
   font-family: "Baloo 2", cursive;
   
   &.light-mode {
-    // filter: invert(1);
     background-color: rgb(218, 242, 255);;
     box-shadow: 10px 10px rgb(162, 61, 40);
   }
@@ -137,16 +127,6 @@
 /**/
 /* MEDIA QUERY */
 /**/
-
-// .main_page {
-//   font-size: 100px;
-//   padding: 40px;
-// }
-
-// .line_height {
-//   line-height: 20px;
-// }
-
 .octopus {
   top: 15.5rem;
   left: 5rem;
@@ -159,11 +139,6 @@
 }
 
 @media (min-width: 576px) {
-  // .main_page {
-  //   font-size: 150px;
-  //   padding: 40px;
-  // }
-
   .octopus {
     top: 15.7rem;
     left: 7.5rem;
@@ -177,11 +152,6 @@
 }
 
 @media (min-width: 768px) {
-  // .main_page {
-  //   font-size: 200px;
-  //   padding: 0 40px;
-  // }
-
   .octopus {
     top: 20.5rem;
     left: 10rem;
@@ -199,19 +169,9 @@
     padding: 25px;
     box-shadow: 15px 15px rgb(86, 149, 197);
   }
-
-  // .line_height {
-  //   line-height: 35px;
-  // }
 }
 
 @media (min-width: 992px) {
-  // .main_page {
-  //   font-size: 250px;
-  //   padding: 50px 80px;
-  //   display: block;
-  // }
-
   .octopus {
     top: 12.5rem;
     left: 12.5rem;
@@ -222,18 +182,9 @@
     top: 5.5rem;
     right: 8rem;
   }
-
-  // .line_height {
-  //   line-height: 45px;
-  // }
 }
 
 @media (min-width: 1200px) {
-  // .main_page {
-  //   font-size: 300px;
-  //   padding: 0 260px;
-  // }
-
   .octopus {
     top: 10.5rem;
     left: 16.5rem;
@@ -241,13 +192,8 @@
   }
 
   .bubble {
-    // top: 30px;
     right: 9rem;
   }
-
-  // .line_height {
-  //   line-height: 45px;
-  // }
 }
 
 @media (min-width: 1400px) {
@@ -258,7 +204,6 @@
   }
 
   .bubble {
-    // top: 30px;
     right: 14rem;
   }
 }
