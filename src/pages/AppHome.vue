@@ -9,11 +9,6 @@
       alt=""
     />
     <RouterLink to="/works">
-      <!-- <img
-        class="octopus"
-        src="/loghi/octopus_colored.png"
-        alt=""
-      /> -->
       <img
         class="octopus"
         :src="
@@ -21,7 +16,7 @@
             ? '/loghi/octopus_colored.png'
             : '/loghi/octopus_minimal.png'
         "
-        :class="{ 'light-mode': store.isLightMode }"
+        :class="{'light-mode': store.isLightMode }"
         alt="Octopus"
       />
       <div class="bubble">
@@ -42,16 +37,14 @@ export default {
   data() {
     return {
       store,
-      // isLightMode: false,
     };
   },
   mounted() {
-    // Verifica la modalità dal localStorage o dallo store.js
+    // Verifico la modalità dal localStorage
     this.store.isLightMode = JSON.parse(localStorage.getItem("isLightMode"));
   },
 };
 </script>
 
 <style lang="scss" scoped>
-
 </style>

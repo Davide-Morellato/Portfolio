@@ -135,7 +135,7 @@ export default {
     this.store.topWindow()
   },
   mounted() {
-    // Recuperiamo la modalità dal localStorage
+    // Recupero la modalità dal localStorage
     this.store.isLightMode = JSON.parse(localStorage.getItem('isLightMode'));
   }
 };

@@ -8,6 +8,13 @@
   justify-content: center;
   min-width: 100%;
   min-height: 100%;
+  // background-image: url('/public/img/image.png');
+  // background-size: contain;
+  // background-repeat: no-repeat;
+
+  // &.light-mode{
+  //   filter: invert(1);
+  // }
 }
 
 .wallpaper {
@@ -49,6 +56,7 @@
   font-family: "Baloo 2", cursive;
   
   &.light-mode {
+    // filter: invert(1);
     background-color: rgb(218, 242, 255);;
     box-shadow: 10px 10px rgb(162, 61, 40);
   }

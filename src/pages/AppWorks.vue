@@ -37,13 +37,11 @@
 
 <script>
 import { store } from "../store.js";
-// import WorkSection from "../components/WorkSection.vue";
 import Languages from "../components/Languages.vue";
 import Projects from "../components/Projects.vue";
 
 export default {
   components: {
-    // WorkSection,
     Languages,
     Projects,
   },

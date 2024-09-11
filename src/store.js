@@ -149,7 +149,6 @@ export const store = reactive({
     window.scrollTo({ top: 0, behavior: "smooth" });
   },
 
-  // Stato locale per gestire modalità
   isLightMode: false,
 
   toggleDarkMode() {
