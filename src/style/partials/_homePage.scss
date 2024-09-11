@@ -25,18 +25,10 @@
   position: relative;
   transition: transform 1s;
   transform: rotate(45deg);
-  z-index: 1;
-
+  
   &.light-mode {
     filter: none;
   }
-}
-
-.octopus {
-  position: absolute;
-  transition: transform 1s;
-  transform: rotate(45deg);
-  z-index: 1;
 }
 
 .bubble p {
@@ -55,9 +47,9 @@
   position: relative;
   box-shadow: 10px 10px rgb(86, 149, 197);
   font-family: "Baloo 2", cursive;
-
+  
   &.light-mode {
-    background-color: rgb(177, 210, 235);
+    background-color: rgb(218, 242, 255);;
     box-shadow: 10px 10px rgb(162, 61, 40);
   }
 }
@@ -85,9 +77,9 @@
 }
 
 .light-mode .bubble p:after {
-  -webkit-text-fill-color: rgb(177, 210, 235);
+  -webkit-text-fill-color: rgb(218, 242, 255);;
   text-shadow: 12px 12px rgb(162, 61, 40);
-  background-color: rgb(177, 210, 235);
+  background-color: rgb(218, 242, 255);;
   box-shadow: 10px 10px rgb(162, 61, 40);
 }
 
@@ -148,14 +140,14 @@
 // }
 
 .octopus {
-  top: 340px;
-  right: 105px;
-  width: 50px;
+  top: 15.5rem;
+  left: 5rem;
+  width: 2.8rem;
 }
 
 .bubble {
-  top: 185px;
-  right: 25px;
+  top: 9.2rem;
+  right: 1.563rem;
 }
 
 @media (min-width: 576px) {
@@ -165,14 +157,14 @@
   // }
 
   .octopus {
-    top: 330px;
-    right: 85px;
-    width: 100px;
+    top: 15.7rem;
+    left: 7.5rem;
+    width: 4.8rem;
   }
 
   .bubble {
-    top: 190px;
-    right: 15px;
+    top: 11rem;
+    right: 2rem;
   }
 }
 
@@ -183,14 +175,14 @@
   // }
 
   .octopus {
-    top: 380px;
-    right: 175px;
-    width: 100px;
+    top: 20.5rem;
+    left: 10rem;
+    width: 6rem;
   }
 
   .bubble {
-    top: 225px;
-    right: 65px;
+    top: 14rem;
+    right: 4rem;
   }
 
   .bubble p {
@@ -213,14 +205,14 @@
   // }
 
   .octopus {
-    top: 245px;
-    right: 235px;
-    width: 115px;
+    top: 12.5rem;
+    left: 12.5rem;
+    width: 7rem;
   }
 
   .bubble {
-    top: 80px;
-    right: 140px;
+    top: 5.5rem;
+    right: 8rem;
   }
 
   // .line_height {
@@ -235,14 +227,14 @@
   // }
 
   .octopus {
-    top: 215px;
-    right: 280px;
-    width: 150px;
+    top: 10.5rem;
+    left: 16.5rem;
+    width: 9rem;
   }
 
   .bubble {
     // top: 30px;
-    right: 185px;
+    right: 9rem;
   }
 
   // .line_height {
@@ -252,13 +244,13 @@
 
 @media (min-width: 1400px) {
   .octopus {
-    top: 170px;
-    right: 370px;
-    width: 180px;
+    top: 7.5rem;
+    left: 20rem;
+    width: 11.25rem;
   }
 
   .bubble {
     // top: 30px;
-    right: 245px;
+    right: 14rem;
   }
 }

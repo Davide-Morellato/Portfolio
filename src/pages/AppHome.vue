@@ -3,7 +3,7 @@
     <!-- <p class="col-12 mb-0">DAVIDE</p>
       <p class="col-12 mb-0 line_height">MORELLATO</p> -->
     <img
-      :class="{ 'light-mode': store.isLightMode }"
+      :class="{'light-mode': store.isLightMode }"
       class="wallpaper"
       src="/public/img/Screenshot 2024-09-10 145830.png"
       alt=""
@@ -53,8 +53,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// /* Rimuovi il filtro per l'immagine in modalità light */
-// .filter-off {
-//   filter: none;
-// }
+
 </style>
