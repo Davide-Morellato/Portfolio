@@ -136,7 +136,7 @@
 /* MEDIA QUERY */
 /**/
 .myworld-wrapper{
-  top: 46%;
+  top: 46.5%;
   right: 25%;
 }
 
@@ -147,24 +147,24 @@
 
 @media (min-width: 568px) {
   .myworld-wrapper{
-    top: 30%;
+    top: 42%;
     right: 25%;
   }
 
   .bubble {
     top: 25%;
-    right: 0.5rem;
+    right: 7%;
   }
 }
 
 @media (min-width: 768px) {
   .myworld-wrapper{
-    top: 41%;
+    top: 38.5%;
     right: 25%;
   }
 
   .bubble {
-    top: 25%;
+    top: 18%;
     right: 10%;
   }
 
