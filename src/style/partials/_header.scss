@@ -8,6 +8,11 @@
   border-bottom: 1px solid var(--color-white);
   font-family: "MouldyCheese-Regular", sans-serif;
   font-weight: bold;
+
+  /* Cambiamento del border-bottom in modalità light */
+  &.light-mode {
+    border-bottom: 1px solid var(--color-black); /* Border nero in light mode */
+  }
 }
 
 .nav-bar {
@@ -25,6 +30,11 @@
 .logo {
   background-color: var(--bg-white);
   padding: 15px;
+
+  &.light-mode {
+    background-color: var(--bg-dark);
+    color: var(--color-white);
+  }
 }
 
 .button,
@@ -38,6 +48,10 @@
   color: var(--color-white);
   transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
   font-weight: 500;
+
+  &.light-mode {
+    color: var(--color-black);
+  }
 }
 
 .button > a {
@@ -58,6 +72,10 @@
   transition: 0.8s;
   font-weight: 500;
   padding: 15px;
+
+  &.light-mode {
+    color: var(--color-white);
+  }
 }
 
 .button:hover:before {
@@ -67,6 +85,10 @@
 .button:hover:after {
   background-color: var(--bg-white);
   transition-delay: 0.5s;
+}
+
+.light-mode .button:hover:after {
+  background-color: var(--bg-dark);
 }
 
 .left:before,
@@ -81,6 +103,10 @@
   border: 1px solid var(--color-black);
   border-left: 0;
   border-right: 0;
+
+  &.light-mode {
+    border: 1px solid var(--color-white);
+  }
 }
 
 .left:after {
@@ -96,7 +122,7 @@
 .toggle {
   margin-left: auto;
   margin-right: 35px;
-  color: var(--color-white);
+  // color: var(--color-white);
   gap: 3px;
 }
 

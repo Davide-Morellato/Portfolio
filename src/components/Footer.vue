@@ -1,11 +1,11 @@
 <template>
     <!-- FOOTER -->
-    <footer class="main-footer">
+    <footer class="main-footer" :class="{'light-mode': store.isLightMode}">
         <nav class="nav-bar">
           <ul class="img-links d-flex gap-4 m-0">
             <li class="git-box">
               <a href="https://github.com/Davide-Morellato">
-                <img class="link-item git" src="/loghi/github_head.png" alt="" />
+                <img :class="{'filter-off': store.isLightMode}" class="link-item git" src="/loghi/github_head.png" alt="" />
               </a>
             </li>
             <li class="linkedin-box">
@@ -35,11 +35,18 @@ export default {
       return {
         store,
       }
-    }
+    },
+    mounted() {
+    this.store.isLightMode = JSON.parse(localStorage.getItem('isLightMode'));
+  }
 }
 </script>
 
 <style lang="scss">
 @use '../style/partials/footer.scss';
 
+/* Rimuovi il filtro in modalità light */
+.filter-off {
+  filter: none;
+}
 </style>

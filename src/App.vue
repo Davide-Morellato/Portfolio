@@ -14,6 +14,10 @@ export default {
       store,
     }
   },
+  mounted() {
+    // Inizializzo la modalità dark/light quando l'app è montata
+    store.initializeMode();
+  }
 };
 </script>
 
@@ -22,7 +26,7 @@ export default {
   <Header v-if="this.$route.name !== 'not-found'"></Header>
 
   <main>
-    <RouterView />
+    <RouterView/>
   </main>
 
   <!-- controllo sul footer per evitare che compaia nella Home Page & nel Not Found -->

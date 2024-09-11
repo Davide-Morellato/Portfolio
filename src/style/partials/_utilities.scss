@@ -40,17 +40,36 @@
 /* ROOT */
 /**/
 :root {
+  /*dark mode*/
   --bg-dark: #0d0c0c;
-  --bg-white: whitesmoke;
-  --bg-sky: rgb(86, 149, 197);
-  --bg-light: rgb(218, 242, 255);
-  --color-sky: rgb(86, 149, 197);
-  --color-black: #0d0c0c;
   --color-white: whitesmoke;
-  --color-rust: rgb(162, 61, 40);
+  // --color-rust: rgb(162, 61, 40);
+
+  /*light mode*/
+  --bg-white: whitesmoke;
+  --color-black: #0d0c0c;
 }
 
 /* BORDER */
 .bor-white {
   border: 1px solid var(--color-white);
+
+  /* Cambiamento del border-bottom in modalità light */
+  &.light-mode {
+    border: 1px solid var(--color-black); /* Border nero in light mode */
+  }
+}
+
+/* TEXT */
+.main_page p,
+.text_about p,
+.list_tech h5,
+.list_tech p,
+.text-content p {
+  color: var(--color-white);
+
+  /* Cambiamento del colore in modalità light */
+  &.light-mode {
+    color: var(--color-black); /* Testo nero in light mode */
+  }
 }

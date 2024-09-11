@@ -1,7 +1,7 @@
 /* MAIN_PAGE */
 .main_page {
-  font-family: "WorkforceCombinePERSONALUSE-Regular", sans-serif;
-  color: var(--color-white);
+  // font-family: "WorkforceCombinePERSONALUSE-Regular", sans-serif;
+  // color: var(--color-white);
   cursor: default;
   display: flex;
   // flex-direction: column;
@@ -10,18 +10,26 @@
   min-height: 100%;
 }
 
-.wallpaper{
+.wallpaper {
   width: 65%;
   align-self: center;
   position: absolute;
+
+  &.light-mode {
+    filter: invert(1);
+  }
 }
 
 .octopus {
-  // filter: invert(0.75);
+  filter: invert(0.75);
   position: relative;
   transition: transform 1s;
   transform: rotate(45deg);
   z-index: 1;
+
+  &.light-mode {
+    filter: none;
+  }
 }
 
 .octopus {
@@ -41,12 +49,17 @@
   letter-spacing: 2px;
   font-size: 10px;
   color: black;
-  background-color: var(--bg-light);
+  background-color: rgb(218, 242, 255);
   padding: 20px;
   border-radius: 11px;
   position: relative;
-  box-shadow: 10px 10px var(--color-sky);
+  box-shadow: 10px 10px rgb(86, 149, 197);
   font-family: "Baloo 2", cursive;
+
+  &.light-mode {
+    background-color: rgb(177, 210, 235);
+    box-shadow: 10px 10px rgb(162, 61, 40);
+  }
 }
 
 .bubble p:after {
@@ -54,21 +67,28 @@
   animation: float2 5s ease-in-out infinite;
   content: ".";
   font-weight: bold;
-  -webkit-text-fill-color: var(--bg-light);
-  text-shadow: 12px 12px var(--color-sky);
+  -webkit-text-fill-color: rgb(218, 242, 255);
+  text-shadow: 12px 12px rgb(86, 149, 197);
   text-align: left;
   font-size: 55px;
   width: 55px;
   height: 11px;
   line-height: 30px;
   border-radius: 11px;
-  background-color: var(--bg-light);
+  background-color: rgb(218, 242, 255);
   position: absolute;
   display: block;
   bottom: -15px;
   left: 0;
-  box-shadow: 12px 12px var(--color-sky);
+  box-shadow: 12px 12px rgb(86, 149, 197);
   z-index: -2;
+}
+
+.light-mode .bubble p:after {
+  -webkit-text-fill-color: rgb(177, 210, 235);
+  text-shadow: 12px 12px rgb(162, 61, 40);
+  background-color: rgb(177, 210, 235);
+  box-shadow: 10px 10px rgb(162, 61, 40);
 }
 
 @keyframes float {
@@ -232,7 +252,7 @@
 
 @media (min-width: 1400px) {
   .octopus {
-    top: 175px;
+    top: 170px;
     right: 370px;
     width: 180px;
   }

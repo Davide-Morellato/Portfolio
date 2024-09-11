@@ -6,6 +6,10 @@
   color: var(--color-white);
   max-width: 100%;
   max-height: 100%;
+
+  &.light-mode {
+    color: var(--color-black);
+  }
 }
 
 /* CONTACT ME */
@@ -16,6 +20,10 @@
   position: relative;
   transition: 0.5s;
   font-family: "Gluten-Thin", sans-serif;
+
+  &.light-mode {
+    color: var(--color-black);
+  }
 }
 
 .contact:after {
@@ -154,7 +162,7 @@
   gap: 30px;
 }
 
-.project_container > div{
+.project_container > div {
   opacity: 0;
   animation: fadeInBottomProj 3s ease-in both;
 }

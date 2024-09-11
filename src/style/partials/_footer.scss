@@ -4,6 +4,11 @@
 .main-footer {
   width: 100%;
   border-top: 1px solid var(--color-white);
+
+  /* Cambiamento del border-top in modalità light */
+  &.light-mode {
+    border-top: 1px solid var(--color-black); /* Border nero in light mode */
+  }
 }
 
 .link-item {

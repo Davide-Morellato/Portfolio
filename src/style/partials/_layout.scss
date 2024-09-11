@@ -1,5 +1,10 @@
-body{
+body {
   background-color: var(--bg-dark);
+
+  /* light mode */
+  &.light-mode {
+    background-color: var(--bg-white);
+  }
 }
 
 #app {
@@ -18,4 +23,12 @@ main {
     var(--color-white) var(--fade-start),
     transparent
   );
+
+  &.light-mode{
+    mask-image: linear-gradient(
+    to bottom,
+    var(--color-black) var(--fade-start),
+    transparent
+  );
+  }
 }
