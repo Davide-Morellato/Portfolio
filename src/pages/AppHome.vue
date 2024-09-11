@@ -1,31 +1,33 @@
 <template>
   <div class="container main_page">
-    <img
-      :class="{'light-mode': store.isLightMode }"
-      class="wallpaper"
-      src="/public/img/Screenshot 2024-09-10 145830.png"
-      alt=""
-    />
+    <div class="image-wrapper">
+      <img
+        :class="{ 'light-mode': store.isLightMode }"
+        class="wallpaper"
+        src="/public/img/Screenshot 2024-09-10 145830.png"
+        alt=""
+      />
+    </div>
     <div class="myworld-wrapper">
       <RouterLink to="/works">
         <img
-          class="octopus"
+        class="octopus"
           :src="
             store.isLightMode
               ? '/loghi/octopus_colored.png'
               : '/loghi/octopus_minimal.png'
           "
-          :class="{'light-mode': store.isLightMode }"
-          alt="Octopus"
+          :class="{ 'light-mode': store.isLightMode }"
+          alt="octopus"
         />
-        <div class="bubble">
-          <p :class="{ 'light-mode': store.isLightMode }">
-            Hi!,
-            <br />
-            Welcome to my world.
-          </p>
-        </div>
       </RouterLink>
+    </div>
+    <div class="bubble">
+      <p :class="{ 'light-mode': store.isLightMode }">
+        Hi!,
+        <br />
+        Welcome to my world.
+      </p>
     </div>
   </div>
 </template>
@@ -46,5 +48,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

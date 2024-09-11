@@ -5,25 +5,33 @@
   justify-content: center;
   min-width: 100%;
   min-height: 100%;
-  
+}
+.image-wrapper {
+  text-align: center;
+  position: relative;
+  align-self: center;
 }
 
 .wallpaper {
   width: 65%;
   align-self: center;
-  position: absolute;
 
   &.light-mode {
     filter: invert(1);
   }
 }
 
+.myworld-wrapper {
+  position: absolute;
+  max-width: 12%;
+  height: min-content;
+}
+
 .octopus {
   filter: invert(0.75);
-  position: relative;
   transition: transform 1s;
   transform: rotate(45deg);
-  
+
   &.light-mode {
     filter: none;
   }
@@ -45,9 +53,9 @@
   position: relative;
   box-shadow: 10px 10px rgb(86, 149, 197);
   font-family: "Baloo 2", cursive;
-  
+
   &.light-mode {
-    background-color: rgb(218, 242, 255);;
+    background-color: rgb(218, 242, 255);
     box-shadow: 10px 10px rgb(162, 61, 40);
   }
 }
@@ -75,9 +83,9 @@
 }
 
 .light-mode .bubble p:after {
-  -webkit-text-fill-color: rgb(218, 242, 255);;
+  -webkit-text-fill-color: rgb(218, 242, 255);
   text-shadow: 12px 12px rgb(162, 61, 40);
-  background-color: rgb(218, 242, 255);;
+  background-color: rgb(218, 242, 255);
   box-shadow: 10px 10px rgb(162, 61, 40);
 }
 
@@ -120,47 +128,44 @@
   transform: rotate(0);
 }
 
-.octopus:hover + .bubble {
+.myworld-wrapper:hover + .bubble {
   opacity: 1;
 }
 
 /**/
 /* MEDIA QUERY */
 /**/
-.octopus {
-  top: 15.5rem;
-  left: 5rem;
-  width: 2.8rem;
+.myworld-wrapper{
+  top: 46%;
+  right: 25%;
 }
 
 .bubble {
-  top: 9.2rem;
-  right: 1.563rem;
+  top: 25%;
+  right: 5%;
 }
 
-@media (min-width: 576px) {
-  .octopus {
-    top: 15.7rem;
-    left: 7.5rem;
-    width: 4.8rem;
+@media (min-width: 568px) {
+  .myworld-wrapper{
+    top: 30%;
+    right: 25%;
   }
 
   .bubble {
-    top: 11rem;
-    right: 2rem;
+    top: 25%;
+    right: 0.5rem;
   }
 }
 
 @media (min-width: 768px) {
-  .octopus {
-    top: 20.5rem;
-    left: 10rem;
-    width: 6rem;
+  .myworld-wrapper{
+    top: 41%;
+    right: 25%;
   }
 
   .bubble {
-    top: 14rem;
-    right: 4rem;
+    top: 25%;
+    right: 10%;
   }
 
   .bubble p {
@@ -172,38 +177,35 @@
 }
 
 @media (min-width: 992px) {
-  .octopus {
-    top: 12.5rem;
-    left: 12.5rem;
-    width: 7rem;
+  .myworld-wrapper {
+    top: 33%;
+    right: 25%;
   }
 
   .bubble {
-    top: 5.5rem;
-    right: 8rem;
+    top: 13%;
+    right: 14%;
   }
 }
 
 @media (min-width: 1200px) {
-  .octopus {
-    top: 10.5rem;
-    left: 16.5rem;
-    width: 9rem;
+  .myworld-wrapper {
+    top: 28%;
+    right: 25%;
   }
 
   .bubble {
-    right: 9rem;
+    right: 15%;
   }
 }
 
 @media (min-width: 1400px) {
-  .octopus {
-    top: 7.5rem;
-    left: 20rem;
-    width: 11.25rem;
+  .myworld-wrapper {
+    top: 25%;
+    right: 25%;
   }
 
   .bubble {
-    right: 14rem;
+    right: 17%;
   }
 }
