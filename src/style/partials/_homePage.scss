@@ -44,7 +44,7 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: 10px;
   color: black;
   background-color: rgb(218, 242, 255);
@@ -52,7 +52,7 @@
   border-radius: 11px;
   position: relative;
   box-shadow: 10px 10px rgb(86, 149, 197);
-  font-family: "Baloo 2", cursive;
+  font-family: 'Orbitron-Regular', sans-serif;
 
   &.light-mode {
     background-color: rgb(218, 242, 255);
