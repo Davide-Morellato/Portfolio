@@ -20,36 +20,33 @@
       </div>
       <div class="text_about">
         <p :class="{'light-mode': store.isLightMode}">
-          Hi!, I'm Davide Morellato, a neo Jr Full Stack Web-Developer,
-          but before this I'm a simple guy that love listen to good music,
-          read a thriller-book that leaves you breathless till the end,
-          see a movie at the cinema or go out with friends.
-          <br />
-          When I can, I do some hiking in the mountains and in the summer
-          I dabble in kitesurfing.
+          Hi,
+          <br/>
+          I am <span class="italic">Davide Morellato</span>, a neo <span class="italic">Jr. Full Stack Web-Developer</span>,
+          but before that I'm a eclectic and empathic guy who loves kitesurfing, hiking with friends, a big music fan,
+          a serial thriller-eater, a cinema lover and a fun friend (I hope) to fun people.
         </p>
         <p :class="{'light-mode': store.isLightMode}">
-          In February 2017, I published my first book of poems 'A la Rosa
-          non si parla', through to a local publishing house 'Innuendo
-          Editore'. It was successful enough to present it at the
+          In February 2017, I published my first poem's book <span class="italic">'A la Rosa
+            non si parla'</span>, through to a local publishing house 'Innuendo
+          Editore'. And it was successful enough to present it at the
           International Book Fair in Turin in the same year.
         </p>
         <p :class="{'light-mode': store.isLightMode}">
-          I consider myself an eclectic and empathic guy, which is, often,
-          I ask myself a question:
+          I always thought that an open mind was the best way to grow in any field.
+          And, to date, I have not found a reason to believe otherwise.
+          For this reason, I often I ask myself a question:
           <br />
-          "Is it better to be Smart or Curious?"
+          <span class="italic">"Is it better to be Smart or Curious?"</span>
           <br />
           To be honest, most of the time I have not been able to give a
           concrete answer, because I consider them two sides of the same
           coin - albeit with different intrinsic weight.
         </p>
         <p :class="{'light-mode': store.isLightMode}">
-          I always thought that an open mind was the best way to grow.
-          And, to date, I have not found a reason to believe otherwise. So
-          I have chosen to pique my curiosity trying to merge two aspects
-          that I find indissoluble in their apparent diversity: creativity
-          and analysis.
+          So I have chosen to pique my curiosity trying to merge two aspects
+          that I find indissoluble in their apparent diversity: <span class="italic">creativity</span>
+          and <span class="italic">analysis</span>.
           <br />
           This allows me to find original and unconventional solutions,
           thanks to a balanced mix of problem solving, a lot of
@@ -60,13 +57,13 @@
           But this growth was the result of strong motivation and
           determination, which pushed me to undertake various work
           experiences both in Italy and abroad. By pushing myself first in
-          Switzerland and then in England, I was able to broaden not only
+          <span class="italic">Switzerland</span> and then in <span class="italic">England</span>, I was able to broaden not only
           my linguistic but also my cultural background and open my mind
           considerably.
         </p>
         <p :class="{'light-mode': store.isLightMode}">
           <p :class="{'light-mode': store.isLightMode }">
-            During the <a href="/download/Certificato_Full_Stack_Web_Development.pdf" class="boolean_anchor" download="Boolean_Certificate"> <span class="underline">Boolean Course</span></a> I've studied different technologies:
+            During the <a href="/download/Certificato_Full_Stack_Web_Development.pdf" class="boolean_anchor italic" download="Boolean_Certificate"> <span class="underline">Boolean Course</span></a> I've studied different technologies:
           </p>
           <ul class="ps-0 list_tech">
             <h5 class="title_techs bor-white p-2 text-center" :class="{'light-mode': store.isLightMode}"><strong>Front-End Development:</strong></h5>
