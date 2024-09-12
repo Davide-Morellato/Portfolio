@@ -8,7 +8,7 @@
               <h1 :class="{'light-mode': store.isLightMode}">ABOUT</h1>
             </div>
             <div class="bor-white download" :class="{'light-mode': store.isLightMode}">
-              <a href="/download/Davide Morellato_CV_en.pdf" download> Download CV </a>
+              <a href="/download/Davide_Morellato_CV_en.pdf" download> Download CV </a>
             </div>
           </div>
   </section>
