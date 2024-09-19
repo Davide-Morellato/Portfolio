@@ -1,0 +1,4 @@
+/ /home 200
+/about /about 200
+/works /works 200
+/:pathMatch(.*)* /not-found 404
