@@ -4,7 +4,7 @@
       <img
         :class="{ 'light-mode': store.isLightMode }"
         class="wallpaper"
-        src="/public/img/Screenshot 2024-09-10 145830.png"
+        src="/img/Screenshot 2024-09-10 145830.png"
         alt=""
       />
     </div>

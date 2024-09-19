@@ -1,7 +1,6 @@
 /**/
 /* NOT FOUND */
 .not-found {
-  background-size: cover;
   height: 100vh;
 }
 
@@ -95,13 +94,7 @@
 /**/
 /* MEDIA QUERY */
 .not-found {
-  background: url("../../public/img/robot.jpg") no-repeat 35% / cover;
-}
-
-@media (min-width: 768px) {
-  .not-found {
-    background: url("../../public/img/robot.jpg") no-repeat 35% / cover;
-  }
+  background: url("/img/robot.jpg") no-repeat 35% / cover
 }
 
 @media (min-width: 992px) {
