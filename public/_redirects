@@ -1,4 +1,1 @@
-/ 200
-/about  200
-/works  200
-/:pathMatch(.*)*  404
+/* /index.html 200
