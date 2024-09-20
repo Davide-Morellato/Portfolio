@@ -5,7 +5,7 @@
           <ul class="img-links d-flex gap-4 m-0">
             <li class="git-box">
               <a href="https://github.com/Davide-Morellato">
-                <img :class="{'filter-off': store.isLightMode}" class="link-item git" src="/loghi/github_head.png" alt="" />
+                <img :class="{'filter-off': store.isLightMode}" class="link-item git" src="/loghi/github_head.png" alt="github" />
               </a>
             </li>
             <li class="linkedin-box">
@@ -13,14 +13,14 @@
                 <img
                   class="link-item linkedin"
                   src="/loghi/linkedin_colored.png"
-                  alt=""
+                  alt="linkedin"
                 />
               </a>
             </li>
           </ul>
           <div class="email-box">
             <a href="mailto:morellato.davide@yahoo.it">
-              <img class="email" src="/loghi/cat.png" alt="" />
+              <img class="email" src="/loghi/cat.png" alt="cat_email" />
             </a>
           </div>
         </nav>
