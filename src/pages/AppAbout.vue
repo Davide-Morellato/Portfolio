@@ -22,7 +22,7 @@
         <p :class="{'light-mode': store.isLightMode}">
           Hi,
           <br/>
-          I am <span class="italic">Davide Morellato</span>, a neo <span class="italic">Jr. Full Stack Web-Developer</span>,
+          I am <span class="italic bolder">Davide Morellato</span>, a neo <span class="italic bolder">Jr. Full Stack Web-Developer</span>,
           but before that I'm a eclectic and empathic guy who loves kitesurfing, hiking with friends, a big music fan,
           a serial thriller-eater, a cinema lover and a fun friend (I hope) to fun people.
         </p>
@@ -37,7 +37,7 @@
           And, to date, I have not found a reason to believe otherwise.
           For this reason, I often I ask myself a question:
           <br />
-          <span class="italic">"Is it better to be Smart or Curious?"</span>
+          <span class="italic bolder">"Is it better to be Smart or Curious?"</span>
           <br />
           To be honest, most of the time I have not been able to give a
           concrete answer, because I consider them two sides of the same
@@ -45,25 +45,25 @@
         </p>
         <p :class="{'light-mode': store.isLightMode}">
           So I have chosen to pique my curiosity trying to merge two aspects
-          that I find indissoluble in their apparent diversity: <span class="italic">creativity</span>
-          and <span class="italic">analysis</span>.
+          that I find indissoluble in their apparent diversity: <span class="italic bolder">creativity</span>
+          and <span class="italic bolder">analysis</span>.
           <br />
           This allows me to find original and unconventional solutions,
-          thanks to a balanced mix of problem solving, a lot of
-          determination, an unfailing critical thinking, profitable time
-          management, excellent teamwork and client focus.
+          thanks to a balanced mix of <span class="italic bolder">problem solving</span>, a lot of
+          <span class="italic bolder">determination</span>, an unfailing <span class="italic bolder">critical thinking</span>, profitable <span class="italic bolder">time management</span>
+          , excellent <span class="italic bolder">teamwork</span> and <span class="italic bolder">client focus</span>.
         </p>
         <p :class="{'light-mode': store.isLightMode}">
           But this growth was the result of strong motivation and
           determination, which pushed me to undertake various work
           experiences both in Italy and abroad. By pushing myself first in
-          <span class="italic">Switzerland</span> and then in <span class="italic">England</span>, I was able to broaden not only
+          <span class="italic bolder">Switzerland</span> and then in <span class="italic bolder">England</span>, I was able to broaden not only
           my linguistic but also my cultural background and open my mind
           considerably.
         </p>
         <p :class="{'light-mode': store.isLightMode}">
           <p :class="{'light-mode': store.isLightMode }">
-            During the <a href="/download/Certificato_Full_Stack_Web_Development.pdf" class="boolean_anchor italic" download="Boolean_Certificate"> <span class="underline">Boolean Course</span></a> I've studied different technologies:
+            During the <a href="/download/Certificato_Full_Stack_Web_Development.pdf" class="boolean_anchor italic bolder" download="Boolean_Certificate"> <span class="underline">Boolean Course</span></a> I've studied different technologies:
           </p>
           <ul class="ps-0 list_tech">
             <h5 class="title_techs bor-white p-2 text-center" :class="{'light-mode': store.isLightMode}"><strong>Front-End Development:</strong></h5>
