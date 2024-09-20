@@ -5,7 +5,7 @@
         :class="{ 'light-mode': store.isLightMode }"
         class="wallpaper"
         src="/img/Screenshot 2024-09-10 145830.png"
-        alt=""
+        alt="icon_name"
       />
     </div>
     <div class="myworld-wrapper">
