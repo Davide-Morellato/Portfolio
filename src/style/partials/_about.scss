@@ -85,6 +85,11 @@
 .picture {
   float: left;
   display: block;
+  border-top: 1px solid var(--color-white);
+
+  &.light-mode {
+    border-top: 1px solid var(--color-black);
+  }
 }
 
 .picture img {
@@ -139,6 +144,11 @@
 
 .title_techs {
   max-width: fit-content;
+  border-top: 1px solid var(--color-white);
+
+  &.light-mode {
+    border-top: 1px solid var(--color-black);
+  }
 }
 
 /**/

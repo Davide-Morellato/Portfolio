@@ -55,10 +55,13 @@
 
 /* BORDER */
 .bor-white {
-  border: 1px solid var(--color-white);
-
+  border-right: 1px solid var(--color-white);
+  border-left: 1px solid var(--color-white);
+  border-bottom: 1px solid var(--color-white);
   &.light-mode {
-    border: 1px solid var(--color-black);
+    border-right: 1px solid var(--color-black);
+    border-left: 1px solid var(--color-black);
+    border-bottom: 1px solid var(--color-black);
   }
 }
 

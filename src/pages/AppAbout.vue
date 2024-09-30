@@ -15,7 +15,7 @@
   <!-- Content about me: picture, text, lang -->
   <section class="content_section">
     <div class="content">
-      <div class="picture bor-white" :class="{'light-mode': store.isLightMode }">
+      <div class="picture bor-white bor-white" :class="{'light-mode': store.isLightMode }">
         <img class="fadeInLeft" src="/img/picture.jpg" alt="me" />
       </div>
       <div class="text_about">
